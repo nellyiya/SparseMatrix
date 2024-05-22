@@ -1,9 +1,16 @@
 const fs = require('fs');
+const path = require('path');
 const SparseMatrix = require('./SparseMatrix');
 
+function prompt(question) {
+    const readlineSync = require('readline-sync');
+    return readlineSync.question(question);
+}
+
 function main() {
-    const matrix1File = '/dsa/sparse_matrix/sample_inputs/matrix1.txt';
-    const matrix2File = '/dsa/sparse_matrix/sample_inputs/matrix2.txt';
+    const baseDir = path.join(__dirname, '../../sample_inputs/');
+    const matrix1File = path.join(baseDir, 'matrix1.txt');
+    const matrix2File = path.join(baseDir, 'matrix2.txt');
 
     try {
         const matrix1 = SparseMatrix.fromFile(matrix1File);
@@ -35,4 +42,3 @@ function main() {
 }
 
 main();
-
