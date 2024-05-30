@@ -6,7 +6,7 @@ This project provides a JavaScript implementation for performing operations on s
 
 1. Clone this repository to your local machine:
 
-git clone <repository_url>
+git clone <https://github.com/nellyiya/SparseMatrix.git>
 
 css
 Copy code
