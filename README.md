@@ -50,10 +50,15 @@ Each subsequent line represents a non-zero element in the matrix, formatted as (
 Example input file:
 
 Copy code
+
 rows=3
+
 cols=3
+
 (0, 0, 1)
+
 (1, 1, 2)
+
 (2, 2, 3)
 
 
