@@ -37,10 +37,9 @@ node SparseMatrix.js
 
 npm install
 
-markdown
-Copy code
 
-Input File Format
+## Input File Format
+
 The input file format should follow these rules:
 
 The first line specifies the number of rows in the matrix (format: rows=<numRows>).
@@ -63,7 +62,7 @@ cols=3
 (2, 2, 3)
 
 ```
-Sample Input Files
+## Sample Input Files
 
 Sample input files are provided in the sample_inputs directory.
 
