@@ -32,21 +32,6 @@ Run the code:
 Copy code
 node SparseMatrix.js
 
-## Installation
-
-1. Clone this repository to your local machine:
-
-git clone <https://github.com/nellyiya/SparseMatrix.git>
-
-css
-Copy code
-
-2. Navigate to the project directory:
-
-cd SparseMatrix
-
-markdown
-Copy code
 
 3. Install dependencies:
 
@@ -70,6 +55,7 @@ cols=3
 (0, 0, 1)
 (1, 1, 2)
 (2, 2, 3)
+
 
 Sample Input Files
 
