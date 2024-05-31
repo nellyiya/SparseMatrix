@@ -47,6 +47,7 @@ The first line specifies the number of rows in the matrix (format: rows=<numRows
 The second line specifies the number of columns in the matrix (format: cols=<numCols>).
 Each subsequent line represents a non-zero element in the matrix, formatted as (row, col, value).
 
+ ```bash
 Example input file:
 
 Copy code
