@@ -62,7 +62,7 @@ cols=3
 
 (2, 2, 3)
 
-
+```
 Sample Input Files
 
 Sample input files are provided in the sample_inputs directory.
