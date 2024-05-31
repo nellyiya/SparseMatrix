@@ -2,6 +2,36 @@
 
 This project provides a JavaScript implementation for performing operations on sparse matrices. It includes functionality to read sparse matrices from input files, perform addition, subtraction, and multiplication operations on them, and save the results to output files.
 
+
+## Features
+
+- **SparseMatrix Class**: Implements a sparse matrix with methods to manipulate it.
+- **fromFileContent**: Static method to create a SparseMatrix object from file content.
+- **getElement**: Get an element from the matrix.
+- **setElement**: Set an element in the matrix.
+- **add**: Add two matrices.
+- **subtract**: Subtract one matrix from another.
+- **multiply**: Multiply two matrices.
+- **saveToFile**: Save the matrix to a file.
+
+
+  ## Usage
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your_username/your_repository.git](https://github.com/nellyiya/SparseMatrix.git
+Install dependencies:
+
+
+Copy code
+npm install
+Run the code:
+
+
+Copy code
+node SparseMatrix.js
+
 ## Installation
 
 1. Clone this repository to your local machine:
@@ -25,49 +55,27 @@ npm install
 markdown
 Copy code
 
-## Usage
+Input File Format
+The input file format should follow these rules:
 
-To perform matrix operations, follow these steps:
+The first line specifies the number of rows in the matrix (format: rows=<numRows>).
+The second line specifies the number of columns in the matrix (format: cols=<numCols>).
+Each subsequent line represents a non-zero element in the matrix, formatted as (row, col, value).
 
-1. Ensure that your input files are located in the `sample_inputs` directory.
+Example input file:
 
-2. Open the `SparseMatrix.js` file and modify the file paths in the `try-catch` block to match the names and locations of your input files.
-
-3. Run the following command to execute the script:
-
-node SparseMatrix.js
-
-lua
 Copy code
-
-4. After execution, the result of the matrix operation will be saved to the `results` directory. You can find the output file named `result_addition.txt` in this directory.
-
-## File Format
-
-The input files for sparse matrices should follow the format below:
-
-rows=<number_of_rows>
-cols=<number_of_columns>
-(row, column, value)
-(row, column, value)
-...
-
-mathematica
-Copy code
-
-For example:
-
 rows=3
 cols=3
 (0, 0, 1)
 (1, 1, 2)
 (2, 2, 3)
 
-csharp
-Copy code
+Sample Input Files
 
-## License
+Sample input files are provided in the sample_inputs directory.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Results
+Results of matrix operations are saved in the results directory.
 
-You can include this README file in your project repository to provide usage instructions and information about your code.
+
